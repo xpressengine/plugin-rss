@@ -73,11 +73,6 @@ class Handler
 
     public function getModuleConfig($id = null)
     {
-//        $configName = $this->getModuleConfigName();
-//        if ($id != null) {
-//            $configName = sprintf('%s.%s', $this->getModuleConfigName(), $id);
-//        }
-
         $config = $this->configManager->get($this->getModuleConfigName($id));
         return $config;
     }

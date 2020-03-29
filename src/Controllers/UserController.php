@@ -124,7 +124,6 @@ class UserController extends Controller
             $publishByIds[$id] = $moduleConfig->get('feed_publish');
         }
 
-
         // setup url
         $urlByIds = [];
         $menuItems = $handler->getMenuItems($instanceIds);
