@@ -1,6 +1,14 @@
 <?php
 
 return [
+    'rssSetup' => [
+        'ko' => 'RSS 셋업',
+        'en' => 'RSS Setup',
+    ],
+    'baseConfig' => [
+        'ko' => '기본 설정',
+        'en' => 'Basic setting',
+    ],
     'URL' => [
         'ko' => 'URL',
         'en' => 'URL',

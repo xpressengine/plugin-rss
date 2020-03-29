@@ -21,3 +21,15 @@ plugins/xe_rss 폴더에 설치됩니다.
 
 XE3 자료실을 통해 이 플러그인을 설치할 수 있습니다. 자세한 설치 방법은 자료실에서 볼 수 있습니다.
 
+## 설정
+#### 설정 페이지 이동
+![img1](https://user-images.githubusercontent.com/5836237/77845705-e3b89700-71eb-11ea-8318-3bc419eff166.png)
+
+#### 통합 피드 설정 후 포함 할 모듈 선택
+![img2](https://user-images.githubusercontent.com/5836237/77845778-7b1dea00-71ec-11ea-9899-3fb36ffe7c9e.png)
+
+#### 모듈 별 공개 방식 설정
+![img3](https://user-images.githubusercontent.com/5836237/77845782-7e18da80-71ec-11ea-86b9-699e1e0bfce2.png)
+
+## Support
+* GitHub : https://github.com/xpressengine/plugin-rss
