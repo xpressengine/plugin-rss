@@ -83,6 +83,8 @@ class Plugin extends AbstractPlugin
     public function activate($installedVersion = null)
     {
         // implement code
+        $trans = app('xe.translator');
+        $trans->putFromLangDataSource('xe_rss', base_path('plugins/xe_rss/langs/lang.php'));
     }
 
     /**
