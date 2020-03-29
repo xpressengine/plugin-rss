@@ -1,0 +1,37 @@
+{
+  "name": "xpressengine-plugin/xe_rss",
+  "description": "This Package is Xpressengine Plugin - RSS.",
+  "keywords": [
+    "xpressengine",
+    "plugin",
+    "res"
+  ],
+  "license": "LGPL-3.0-or-later",
+  "version": "0.9.0",
+  "type": "xpressengine-plugin",
+  "support": {
+    "email": "developers@xpressengine.com"
+  },
+  "authors": [
+    {
+      "name": "XE Developers",
+      "email": "developers@xpressengine.com",
+      "homepage": "https://store.xehub.io/plugins/xe_rss",
+      "role": "Developer"
+    }
+  ],
+  "extra": {
+    "xpressengine": {
+      "title": "RSS",
+      "component": {}
+    }
+  },
+  "require": {
+    "xpressengine/xpressengine": "~3.0.9"
+  },
+  "autoload": {
+    "psr-4": {
+      "Xpressengine\\Plugins\\Rss\\": "src/"
+    }
+  }
+}
