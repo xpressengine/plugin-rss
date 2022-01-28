@@ -61,9 +61,7 @@ class Plugin extends AbstractPlugin
             }
         );
 
-        Route::fixed(self::getId(), function () {
-            Route::get('/{format?}', ['as' => 'xe_rss::index', 'uses' => 'UserController@index']);
-        }, ['namespace' => 'Xpressengine\Plugins\Rss\Controllers']);
+        Route::get('/rss/{format?}', ['as' => 'xe_rss::index', 'uses' => '\Xpressengine\Plugins\Rss\Controllers\UserController@index']);
 
         Route::get('/{module_url}/xe_rss/{format?}', ['as' => 'xe_rss::module_rss', 'uses' => '\Xpressengine\Plugins\Rss\Controllers\UserController@moduleRss']);
     }
@@ -121,7 +119,6 @@ class Plugin extends AbstractPlugin
     public function checkInstalled()
     {
         // implement code
-
         return parent::checkInstalled();
     }
 
@@ -147,4 +144,5 @@ class Plugin extends AbstractPlugin
 
         return parent::checkUpdated();
     }
+
 }
